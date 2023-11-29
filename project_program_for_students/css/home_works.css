@@ -30,7 +30,7 @@
 /* MOVE BLOCK */
 
 .move_block {
-    background: rgb(18, 19, 18);
+    background: black;
     padding: 100px 0;
 }
 
@@ -51,7 +51,7 @@
     border-radius: 18px;
 }
 
-.moving {
+.child_block {
     position: absolute;
     top: 0;
     width: 50px;
