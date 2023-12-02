@@ -1,0 +1,65 @@
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+}
+
+.card {
+    width: 350px;
+    height: 300px;
+    background: url("https://avatars.mds.yandex.net/i?id=9f50ed461533ce149139b1a030df4fa5f27e48a2-9674922-images-thumbs&n=13") no-repeat;
+    background-size: cover;
+}
+
+
+.header {
+    height: 80px;
+    background: #2c2d2f;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.inner_header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logotype {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    height: 60px;
+    width: fit-content;
+    background: var(--orange);
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.menu_link a {
+    color: var(--orange);
+    text-transform: uppercase;
+}
+
+.menu_link a:hover {
+    text-decoration: underline;
+}
+
+
